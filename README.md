@@ -1,5 +1,14 @@
 # stylelint-rational-order-plugin
 
+[![NPM version][version-img]][npm-url] [![Build status][ci-img]][ci-url] [![License][l-img]][l-url]
+
+[npm-url]: https://www.npmjs.com/package/stylelint-rational-order-plugin
+[version-img]: https://img.shields.io/npm/v/stylelint-rational-order-plugin.svg?style=flat-square
+[ci-url]: https://travis-ci.org/AdreeUA/stylelint-rational-order-plugin
+[ci-img]: https://img.shields.io/travis/AdreeUA/stylelint-rational-order-plugin.svg?style=flat-square
+[l-url]: https://www.npmjs.com/package/stylelint-rational-order-plugin
+[l-img]: https://img.shields.io/npm/l/stylelint-rational-order-plugin.svg?style=flat-square
+
 Stylelint config that sorts related property declarations by grouping together following the order:
 
 1.  Positioning
