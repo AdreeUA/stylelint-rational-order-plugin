@@ -1,0 +1,18 @@
+sudo: false
+language: node_js
+node_js:
+  - '11'
+  - '10'
+cache:
+  yarn: true
+  directories:
+    - node_modules
+deploy:
+  provider: npm
+  email: 000scorpio000@gmail.com
+  api_key:
+    secure: VBjpoz1gedBEyb9Co2EcighgXwzIPDBmMmo7zqwvudXZ3EBHlbtNo9Pkt1WAEGl7RVzmr9ZBuhCZXdc8bNHOv4LYW85U+ZFSBvWh1oJHpqN3p9+yuRFBxYalhPSnbRJih33Nuo2afRT8tbqJM83tVZEMA5swidTl9jtdURLH4Psr34aa9vq0kTfcI6MpJwOsEh8uPr0wDlhnDCDf99BpKKTTEra7gjUK0P9dVzqVgKYysD3x+ZV9WLZ977WgzOns5dEt7Yqji9YeJC7qAxTFNLiLBTfk5Wnt2VUwW08/bZMOvHZZmQaYff948qfDCw6cghAW6zd6XVmvZMYKsvxt6hwYo34OdhqEHmcRYLKABk4eYhhPFa0N8fgKEqW2Uw7x9w826ySmAgLyHPwADG7J18jnhlxGOV0CxGkCRiMebfWim0UQ91OiNrFmR9WCAsrT0lzfDy+CxSPkU+Y4cM9n12fk0IX45RYcoNCvLt9j30jlbZRRV0IOILKCbEnqxrJmwd1WlzPAYEno8z9DxVGKbEoKOpECwlUAHI42/+UQgphSwM+5TL92m17/HAlqIA7yxIkKM7Biw3c+Yts/t+zAPiGT+8ru6GwcdmIuCy3RuJW6JiBA70EMqxKrKsUUwZ+gzvfTfiqfugGMrQZOlyn1hxZbHgkNtYRjIduHiQtdhqY=
+  on:
+    tags: true
+    branch: master
+    node_js: 10
