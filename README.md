@@ -93,5 +93,4 @@ This option adds an empty line between groups. Default `false`.
 ## Credits
 
 * [Code Guide by @mdo](http://codeguide.co/)
-* [Code Guide by HTML Academy](https://github.com/htmlacademy/codeguide)
-* [Code Guide by @constverum](https://github.com/constverum/stylelint-config-rational-order)
+* [Fork stylelint-config-rational-order by @constverum](https://github.com/constverum/stylelint-config-rational-order)
