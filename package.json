@@ -7,6 +7,13 @@
     "lint": "eslint .",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdreeUA/stylelint-rational-order-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdreeUA/stylelint-rational-order-plugin/issues"
+  },
   "keywords": [
     "stylelint",
     "stylelint-config",
@@ -35,5 +42,6 @@
     "eslint-plugin-prettier": "^3.0.1",
     "jest": "^24.1.0",
     "prettier": "^1.16.4"
-  }
+  },
+  "homepage": "https://github.com/AdreeUA/stylelint-rational-order-plugin"
 }
